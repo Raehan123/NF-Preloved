@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://kit.fontawesome.com/138e30ea05.js" crossorigin="anonymous"></script>
     <title>NF Preloved</title>
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     @vite('resources/js/imagePreview.js')
     @vite('resources/js/heartToggle.js')
     @vite('resources/js/popup.js')
