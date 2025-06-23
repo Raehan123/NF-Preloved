@@ -97,8 +97,8 @@
                         <label class="block text-[#103f65] font-medium mb-1">Status:</label>
                         <select name="is_sold"
                             class="w-full p-3 rounded-xl border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#1069A4]">
-                            <option value="0" {{ $item->is_sold == 0 ? 'selected' : '' }}>Terjual</option>
-                            <option value="1" {{ $item->is_sold == 1 ? 'selected' : '' }}>Tersedia</option>
+                            <option value="0" {{ $item->is_sold == 0 ? 'selected' : '' }}>Tersedia</option>
+                            <option value="1" {{ $item->is_sold == 1 ? 'selected' : '' }}>Terjual</option>
                         </select>
                     </div>
                 </div>

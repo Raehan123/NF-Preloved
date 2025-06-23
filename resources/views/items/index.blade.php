@@ -59,7 +59,7 @@
                                                 class="delete-form">
                                                 @csrf
                                                 @method('DELETE')
-                                                <button type="button" class="delete-btn">
+                                                <button type="submit" class="delete-btn">
                                                     <i
                                                         class="fa-solid fa-trash text-red-600 cursor-pointer hover:text-red-800"></i>
                                                 </button>

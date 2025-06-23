@@ -69,12 +69,6 @@
                         </x-primary-button>
 
                         <div class="w-full h-[1.5px] bg-white rounded my-2"></div>
-
-                        <a href="#"
-                            class="w-full bg-white text-gray-700 flex items-center justify-center gap-2 py-2 rounded-md hover:bg-gray-100 transition">
-                            <img src="{{ asset('assets/img/logo-google.png') }}" alt="Google Logo" class="w-5 h-5">
-                            Log in with Google
-                        </a>
                     </div>
 
                     <!-- Lupa Password & Register -->

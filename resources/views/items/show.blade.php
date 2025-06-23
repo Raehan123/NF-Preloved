@@ -5,7 +5,6 @@
         <div class="max-w-2xl mx-auto text-[#103f65]">
             <h2 class="text-center text-2xl font-bold mb-6">Detail Barang</h2>
 
-            @foreach ($items as $item)
                 <!-- Gambar Produk -->
                 <div class="flex justify-center mb-6">
                     <img src="{{ asset('storage/' . $item->image) }}" alt="Produk"
@@ -42,7 +41,6 @@
                         </div>
                     </div>
                 </div>
-            @endforeach
 
             <!-- Tombol dan Favorite -->
             <div class="flex justify-between items-center">
